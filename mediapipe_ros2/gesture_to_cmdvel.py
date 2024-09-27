@@ -28,26 +28,29 @@ class GestureControl(Node):
         drive_cmd_msg = Twist()
         speed = 0.5
         if msg.data == "front":
-            drive_cmd_msg.linear.x = speed
-            drive_cmd_msg.angular.z = 0.0
-            self.drive_cmd_publisher_.publish(drive_cmd_msg)
+
+            # your code here
+            pass
+
         if msg.data == "back":
-            drive_cmd_msg.linear.x = -speed
-            drive_cmd_msg.angular.z = 0.0
-            self.drive_cmd_publisher_.publish(drive_cmd_msg)
+
+            # your code here
+            pass
+
         if msg.data == "left":
-            drive_cmd_msg.linear.x = 0.0
-            drive_cmd_msg.angular.z = speed
-            self.drive_cmd_publisher_.publish(drive_cmd_msg)
+
+            # your code here
+            pass
+
         if msg.data == "right":
-            drive_cmd_msg.linear.x = 0.0
-            drive_cmd_msg.angular.z = -speed
-            self.drive_cmd_publisher_.publish(drive_cmd_msg)
+
+            # your code here
+            pass
+
         if msg.data == "stop":
-            drive_cmd_msg.linear.x = 0.0
-            drive_cmd_msg.linear.y = 0.0
-            drive_cmd_msg.angular.z = 0.0
-            self.drive_cmd_publisher_.publish(drive_cmd_msg)
+
+            # your code here
+            pass
 
 
 
